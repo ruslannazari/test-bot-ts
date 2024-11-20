@@ -1,6 +1,6 @@
 import { GrammyError, HttpError } from 'grammy'
 import { bot } from '../src/bot'
-
+import "../commands/message"
 const {
     VERCEL_URL = 'localhost',
     VERCEL_BRANCH_URL: hostname = VERCEL_URL,
